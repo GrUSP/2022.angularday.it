@@ -14,12 +14,12 @@ short_version:
 long_version:
   title:
   content_1: "Application"
-  content_2_beginning: "You are invited to apply for "
-  content_2_link_label: "a single conference ticket for rubyday"
+  content_2_beginning: "You are invited to "
+  content_2_link_label: "apply for a single conference ticket for angularday"
   content_2_link_url: "https://forms.gle/K7b38LbqVuAJ61MK9"
   content_2_ending: "  . We will notify all applicants regarding the outcome of their application. We don’t cover travel/accommodation expenses."
   content_3: "Sponsor"
   content_4: "We are looking for “diversity sponsor” to fund this program and enable GrUSP to offer more scholarships! If you are representing an amazing tech company that is looking to give back to the developer community, get in touch!"
   content_5: "Contact"
   content_6: "May you have any questions please don’t hesitate to contact us at "
-diversity_sponsors_title: ""
+diversity_sponsors_title: "Diversity Sponsors: thank you!"
