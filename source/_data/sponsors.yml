@@ -15,10 +15,6 @@ sponsors_block_title: "Thanks for supporting angularday!"
 #     logo_filename: ""
 #     site_url: ""
 gold:
-  sponsor1:
-    name: "SparkFabrik"
-    logo_filename: "sparkfabrik.png"
-    site_url: "https://www.sparkfabrik.com/it/"
   sponsor2:
     name: "StoryBlok"
     logo_filename: "storyblok.svg"
@@ -28,10 +24,18 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
+  sponsor1:
+    name: "CentralReach"
+    logo_filename: "centralreach.svg"
+    site_url: "https://centralreach.com/"
+  sponsor2:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor3:
+    name: "SparkFabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
 bronze:
   sponsor2:
     name: "StickerMule"
