@@ -55,7 +55,7 @@ section(id="workshop").section_nopadding
               strong !{teacher.teacher_name}
               | &nbsp;
               span !{teacher.teacher_role}
-              | &nbsp;@&nbsp;
+              | &nbsp;&nbsp;
               span !{teacher.teacher_org}
               br
         .column.workshop-buttons
@@ -81,15 +81,15 @@ section(id="workshop").section_nopadding
         "@context": "https://schema.org",
         "@type": "Event",
         "@id": "#{read_more_url}",
-        "superEvent": 
+        "superEvent":
         {
           "@type": "Event",
-          "@id": "#{full_url_for(site.root)}" 
+          "@id": "#{full_url_for(site.root)}"
         },
-        "location": 
+        "location":
         {
           "@type": "Place",
-          "address": 
+          "address":
           {
             "@type": "PostalAddress",
             "addressLocality": "#{workshop.location}",
