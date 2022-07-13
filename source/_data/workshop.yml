@@ -67,7 +67,9 @@ workshops:
         teacher_org: ""
     topics_title: "Tematiche che verranno approfondite:"
     topics:
-      - "Creazione di Router Guard di diverse tipologie, Direttive e Pipe asincrone"
+      - "Creazione di Componenti, Direttive e Pipe asincrone in cui si utilizzano le potenzialità di RxJS"
+      - "Gestione Router con RxJS"
+      - "Flattening Operators e il servizio HttpClient: diverse strategie di comunicazione con il back-end"
       - "Reactive Forms e integrazione con RxJS"
       - "RxJS Subject: le differenze tra le diverse tipologie di Subject"
       - "Hot vs Cold Observable e Multicasting in RxJS"

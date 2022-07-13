@@ -5,18 +5,50 @@ schedule_under_construction_description: "We are still defining the schedule. Pl
 social_lineup_image: "social-lineup-1200x630.png"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
+speaker_1: &shmuela
   speaker_in_speaker_lists: false
   speaker_name:
-  speaker_pic_filename: .jpg
-  speaker_role: ""
-  speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: ""
+  speaker_pic_filename: shmuela-jacobs.jpg
+  speaker_role: "Web Dev Consultant, Founder @ ngGirls"
+  speaker_bio: "Shmuela Jacobs is a proud ngMom of two ngBoys, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. She's the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics."
+  speaker_github_url: "https://github.com/shmool"
+  speaker_twitter_url: "https://twitter.com/ShmuelaJ"
+  is_mc: false
+speaker_2: &edoardo
+  speaker_in_speaker_lists: false
+  speaker_name:
+  speaker_pic_filename: edoardo-dusi.jpg
+  speaker_role: "Lead Developer @ SparkFabrik"
+  speaker_bio: "I am a full-stack developer and team leader, graduated in Computer Science when we were still talking about Web 2.0 and the reference JS library was script.aculo.us, then started freelancing working mainly on Drupal and, as last act of my solo career, worked on the new Iperbole portal for the municipality of Bologna.
+    Eventually I embraced the SparkFabrik project, became a Lead Developer, shifted the focus to the Frontend, first Angular then React, and bootstrapped a new React Native unit.
+    My main focus is still engineering, but there's more: I like to create relations, tech content, talks, videos, blog posts, and I host the Continuous Delivery podcast."
+  speaker_github_url: "https://github.com/edodusi"
+  speaker_twitter_url: "https://twitter.com/edodusi"
+  is_mc: false
+speaker_3: &luca
+  speaker_in_speaker_lists: false
+  speaker_name: Luca Del Puppo
+  speaker_pic_filename: luca-delpuppo.jpg
+  speaker_role: "Full Stack Developer @ Flowing"
+  speaker_bio: "I'm a Full Stack Developer in Flowing, I love javascript and typescript. In my free time, I love to study new technologies or something about improving myself and do trail running in my love Dolomiti."
+  speaker_github_url: "https://github.com/puppo"
+  speaker_twitter_url: "https://twitter.com/puppo92"
+  is_mc: false
+speaker_4: &juri
+  speaker_in_speaker_lists: false
+  speaker_name: Juri Strumpflohner
+  speaker_pic_filename: juri-strumpflohner.jpg
+  speaker_role: "Director of Developer Experience @ Nrwl"
+  speaker_bio: "Juri Strumpflohner is the Director of Developer Experience at Nrwl where he helps developers with questions around frontend development, monorepos, scaling and modern tools. He is a core member of Nx, a smart, fast and extensible build system, optimized for monorepo development. Prior to moving into developer relations Juri has been consulting for some of the world's biggest companies, helping them scale their development efforts, particularly in the frontend space. Juri is a Google Developers Expert in Angular, international speaker and Egghead instructor. Reach out to him on Twitter (@juristr) or his website on juri.dev."
+  speaker_github_url: "https://github.com/juristr"
+  speaker_twitter_url: "https://twitter.com/juristr"
   is_mc: false
 
 speakers:
-  speaker_1: *speaker
+  speaker_1: *shmuela
+  speaker_2: *edoardo
+  speaker_3: *juri
+  speaker_4: *luca
 
 tracks:
   track_1: &track_1
@@ -38,7 +70,7 @@ tracks:
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 days:
   day_1:
-    date: 2022-05-19T09:15+02:00
+    date: 2022-10-07T09:15+02:00
     title: "Day 1"
     talks:
       # service
@@ -78,23 +110,52 @@ days:
         service_icon: "glass"
 
       # talk
-      keynote:
-        item_type: "keynote"
-        track: *track_1
-        start_datetime: 2022-05-19T09:30+02:00
-        end_datetime: 2022-05-19T10:25+02:00
-        talk_title: ""
-        talk_description: ""
-        talk_video_url:
-        speakers:
-          speaker_1: *speaker
-      titolotalk1:
+      dynamic_components:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
-        talk_title: ""
-        talk_description: ""
+        start_datetime:
+        end_datetime:
+        talk_title: "It’s Alive! Dynamic Components in Angular"
+        talk_description: "The main use-case for using Dynamic Components is when we can decide only in run-time which component is loaded. They’re also the only solution when we want to embed Angular components in non-Angular ones. In many cases, replacing in-template components with dynamic ones is beneficial to performance and code quality.
+        In this talk we’ll learn how to create and use Dynamic Components, and discuss several types of usages."
         talk_video_url:
         speakers:
-          speaker_1: *speaker
+          speaker_1: *shmuela
+      module_federation:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Architecting large scale Angular apps with Module Federation"
+        talk_description: "Angular has found wide adoption in the enterprise space. Big companies love Angular because it comes with conventions and excellent tooling.
+        There needs to be some proper architectural foundation, which becomes even more evident as your application grows and you have more team members working on it.
+        Spaghetti code and interdependencies among app features, as well as build and serve times going from seconds to minutes, are common symptoms of large-scale Angular apps which significantly impact the team's productivity and morale.
+        This talk will outline an architectural approach to solve such issues, at horizontal vs. vertical slicing of Angular apps and how Webpack's Module Federation can help."
+        talk_video_url:
+        speakers:
+          speaker_1: *juri
+      scale_up:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "How to scale up your angular projects like a pro"
+        talk_description: "Are your teams or your projects growing up? Is your build slower every day and your team tired?
+        Your projects are not well structured or do you need to split better your code?
+        Using NX all of these problems can be resolved.
+        In this talk, I'll show you how you can improve the developer experience of your team by introducing NX."
+        talk_video_url:
+        speakers:
+          speaker_1: *luca
+      testing_cypress:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Testing Angular apps with Cypress in CI"
+        talk_description: "The Test Pyramid should be a well-known metaphor of grouping tests in buckets, with unit tests at the base and E2E at the top.
+        But this concept has led over the years to invest heavily in the former and often ignore the latter, while a good end-to-end test suite is what saves the day in difficult times.
+        In this talk I'll explain what Cypress is, how to best integrate it with Angular, and how to configure it in a CI/CD pipeline on GitHub."
+        talk_video_url:
+        speakers:
+          speaker_1: *edoardo

@@ -60,7 +60,7 @@ conference:
   geninfo_description: "angularday 2022 is the 6th edition of the Italian angular conference, organized by GrUSP, organizers of events like <a href='https://www.phpday.it/'>phpday</a> and <a href='https://www.jsday.it/'>jsday</a>.
   <br> <br /> The event is international and all sessions will be in English.
   <br> The event’s goal is to allow all angular developers to meet and share experience while having fun and networking in an enjoyable context.
-  <br> <br />angularday 2022 is happening in Verona and online on Friday, October 7th 2022."
+  <br> <br />angularday 2022 is happening in Verona and online on Friday, October 7th 2022. On the day after the conference, we are hosting a <a href='http://localhost:4000/workshop/workshop_RxJS.html'>workshop</a> in Italian language (tickets are sold separately)."
   geninfo_about_label: "About"
   geninfo_coc_label: "Code of conduct"
   geninfo_scholarships_label: "Scholarships"
