@@ -6,18 +6,18 @@ social_lineup_image: "social-lineup-1200x630.png"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
 speaker_1: &shmuela
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: shmuela-jacobs.jpg
+  speaker_in_speaker_lists: true
+  speaker_name: Shmuela Jacobs
+  speaker_pic_filename: shmuela-jacobs.png
   speaker_role: "Web Dev Consultant, Founder @ ngGirls"
   speaker_bio: "Shmuela Jacobs is a proud ngMom of two ngBoys, happily married to ReactDad. Shmuela combines her love for coding useful apps, teaching and helping Web developers as a consultant and trainer. She's the founder of ngGirls, and a GDE in Angular and Web Technologies, ex Cloud Advocate at Microsoft, holding M.Sc. in Information Management Engineering and B.Sc. in Physics."
   speaker_github_url: "https://github.com/shmool"
   speaker_twitter_url: "https://twitter.com/ShmuelaJ"
   is_mc: false
 speaker_2: &edoardo
-  speaker_in_speaker_lists: false
-  speaker_name:
-  speaker_pic_filename: edoardo-dusi.jpg
+  speaker_in_speaker_lists: true
+  speaker_name: Edoardo Dusi
+  speaker_pic_filename: edoardo-dusi.png
   speaker_role: "Lead Developer @ SparkFabrik"
   speaker_bio: "I am a full-stack developer and team leader, graduated in Computer Science when we were still talking about Web 2.0 and the reference JS library was script.aculo.us, then started freelancing working mainly on Drupal and, as last act of my solo career, worked on the new Iperbole portal for the municipality of Bologna.
     Eventually I embraced the SparkFabrik project, became a Lead Developer, shifted the focus to the Frontend, first Angular then React, and bootstrapped a new React Native unit.
@@ -26,18 +26,18 @@ speaker_2: &edoardo
   speaker_twitter_url: "https://twitter.com/edodusi"
   is_mc: false
 speaker_3: &luca
-  speaker_in_speaker_lists: false
+  speaker_in_speaker_lists: true
   speaker_name: Luca Del Puppo
-  speaker_pic_filename: luca-delpuppo.jpg
+  speaker_pic_filename: luca-delpuppo.png
   speaker_role: "Full Stack Developer @ Flowing"
   speaker_bio: "I'm a Full Stack Developer in Flowing, I love javascript and typescript. In my free time, I love to study new technologies or something about improving myself and do trail running in my love Dolomiti."
   speaker_github_url: "https://github.com/puppo"
   speaker_twitter_url: "https://twitter.com/puppo92"
   is_mc: false
 speaker_4: &juri
-  speaker_in_speaker_lists: false
+  speaker_in_speaker_lists: true
   speaker_name: Juri Strumpflohner
-  speaker_pic_filename: juri-strumpflohner.jpg
+  speaker_pic_filename: juri-strumpflohner.png
   speaker_role: "Director of Developer Experience @ Nrwl"
   speaker_bio: "Juri Strumpflohner is the Director of Developer Experience at Nrwl where he helps developers with questions around frontend development, monorepos, scaling and modern tools. He is a core member of Nx, a smart, fast and extensible build system, optimized for monorepo development. Prior to moving into developer relations Juri has been consulting for some of the world's biggest companies, helping them scale their development efforts, particularly in the frontend space. Juri is a Google Developers Expert in Angular, international speaker and Egghead instructor. Reach out to him on Twitter (@juristr) or his website on juri.dev."
   speaker_github_url: "https://github.com/juristr"
