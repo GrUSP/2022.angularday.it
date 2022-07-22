@@ -43,12 +43,22 @@ speaker_4: &juri
   speaker_github_url: "https://github.com/juristr"
   speaker_twitter_url: "https://twitter.com/juristr"
   is_mc: false
+speaker_5: &tally
+  speaker_in_speaker_lists: true
+  speaker_name: Tally Barak
+  speaker_pic_filename: tally-barak.png
+  speaker_role: "Senior full stack developer @ Yoobic"
+  speaker_bio: "Tally has over 30 years of software development, product management, and consulting experience. Today Tally works for Yoobic as a senior full-stack engineer and is responsible for all the FE tooling, testing, and DevOps processes. Tally loves Javascript and its ecosystem and is happily sharing this knowledge with other developers."
+  speaker_github_url: "https://github.com/Tallyb"
+  speaker_twitter_url: "https://twitter.com/TallyBarak"
+  is_mc: false
 
 speakers:
-  speaker_1: *shmuela
-  speaker_2: *edoardo
-  speaker_3: *juri
-  speaker_4: *luca
+  speaker_1: *tally
+  speaker_2: *luca
+  speaker_3: *edoardo
+  speaker_4: *shmuela
+  speaker_5: *juri
 
 tracks:
   track_1: &track_1
@@ -110,30 +120,17 @@ days:
         service_icon: "glass"
 
       # talk
-      dynamic_components:
+      testing-storybook:
         item_type: "talk"
         track: *track_1
         start_datetime:
         end_datetime:
-        talk_title: "It’s Alive! Dynamic Components in Angular"
-        talk_description: "The main use-case for using Dynamic Components is when we can decide only in run-time which component is loaded. They’re also the only solution when we want to embed Angular components in non-Angular ones. In many cases, replacing in-template components with dynamic ones is beneficial to performance and code quality.
-        In this talk we’ll learn how to create and use Dynamic Components, and discuss several types of usages."
+        talk_title: "Love Story - Testing angular components with Storybook and Playwright"
+        talk_description: "Components work in browsers, not in a mock of the browser. Therefore, they are best tested with real browsers. This is even more true when using a design system that is built on web components.
+        In this talk I will show how we combined two tools - Storybook and Playwright to test our components with different setups, viewports, data and more to get fast and reliable system."
         talk_video_url:
         speakers:
-          speaker_1: *shmuela
-      module_federation:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Architecting large scale Angular apps with Module Federation"
-        talk_description: "Angular has found wide adoption in the enterprise space. Big companies love Angular because it comes with conventions and excellent tooling.
-        There needs to be some proper architectural foundation, which becomes even more evident as your application grows and you have more team members working on it.
-        Spaghetti code and interdependencies among app features, as well as build and serve times going from seconds to minutes, are common symptoms of large-scale Angular apps which significantly impact the team's productivity and morale.
-        This talk will outline an architectural approach to solve such issues, at horizontal vs. vertical slicing of Angular apps and how Webpack's Module Federation can help."
-        talk_video_url:
-        speakers:
-          speaker_1: *juri
+          speaker_1: *tally
       scale_up:
         item_type: "talk"
         track: *track_1
@@ -159,3 +156,28 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *edoardo
+      dynamic_components:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "It’s Alive! Dynamic Components in Angular"
+        talk_description: "The main use-case for using Dynamic Components is when we can decide only in run-time which component is loaded. They’re also the only solution when we want to embed Angular components in non-Angular ones. In many cases, replacing in-template components with dynamic ones is beneficial to performance and code quality.
+        In this talk we’ll learn how to create and use Dynamic Components, and discuss several types of usages."
+        talk_video_url:
+        speakers:
+          speaker_1: *shmuela
+      module_federation:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Architecting large scale Angular apps with Module Federation"
+        talk_description: "Angular has found wide adoption in the enterprise space. Big companies love Angular because it comes with conventions and excellent tooling.
+        There needs to be some proper architectural foundation, which becomes even more evident as your application grows and you have more team members working on it.
+        Spaghetti code and interdependencies among app features, as well as build and serve times going from seconds to minutes, are common symptoms of large-scale Angular apps which significantly impact the team's productivity and morale.
+        This talk will outline an architectural approach to solve such issues, at horizontal vs. vertical slicing of Angular apps and how Webpack's Module Federation can help."
+        talk_video_url:
+        speakers:
+          speaker_1: *juri
+
