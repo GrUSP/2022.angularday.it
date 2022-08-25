@@ -228,9 +228,9 @@ days:
         talk_description: "Let's learn GraphQL the practical way! In this talk, we'll cover the basics of GraphQL and then, we'll use it to build a fully-fledged web application. For accessing our data, we'll utilize the MongoDB Realm GraphQL API. For the front-end, we'll use Angular and Apollo Client.
         Through the talk, we'll answer some of the most common questions about GraphQL, such as:
         <ul>
-        - How is GraphQL different from REST?
-        - What are the performance benefits of using GraphQL?
-        - Is GraphQL free and open source?
+        <li>How is GraphQL different from REST?</li>
+        <li>What are the performance benefits of using GraphQL?</li>
+        <li>Is GraphQL free and open source?</li>
         </ul>"
         talk_video_url:
         speakers:

@@ -91,3 +91,74 @@ workshops:
     useful_info_description: "Il corso si svolge a Verona, nella stessa location di angularday, il giorno dopo la conferenza. Sono inclusi nel prezzo il pranzo e le pause caffè. <b>Il biglietto per il corso è venduto separatamente da quello per la conferenza.</b>"
     # CTA
     cta_title: "Non perderti questa giornata di formazione avanzata"
+
+  ngGirls:
+    ws_id: ngGirls
+    is_external: true
+    page_uri: "workshop/ngGirls.html"
+    page_title: "ngGirls - a free workshop for women"
+    workshop_title: "ngGirls"
+    ticket_url: "https://www.ng-girls.org/event/verona-2022"
+    ticket_label: "Be a part of ngGirls"
+    location_title: "Where"
+    location: "Verona"
+    # online_location: "online"
+    location_name: "San Marco Hotel (conference venue)"
+    # location_name: "The Internet"
+    #location_contact_phone: "+045569011"
+    #location_contact_email: "sanmarco@sanmarco.vr.it"
+    location_contact_url: "https://www.sanmarco.vr.it/"
+    location_address: "Via Longhena 42, 37138 Verona (VR) Italy"
+    location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+    location_maps_label: "Get directions"
+    location_additional_info: "The hotel offers discounts for participants, contact them for more details."
+    whatandwhen_title: "How and when"
+    # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
+    whatandwhen_additional_info: "The workshop takes place in person, on Saturday 8th October 2022, from 9:30 to 17:30."
+    date: 2022-10-08T09:30+02:00
+    end_date: 2020-09-15T17:30+02:00
+    date_text: "Saturday 8th October 2022, from 9:30 to 17:30."
+    language_title: "Language"
+    language: "english"
+    language_ext:
+    language_additional_info: ""
+    collab: ""
+    description: "A free workshop for women. During the workshop you will build and deploy your very first Angular Web Application."
+    description_long: "Are you a woman interested in learning how to build web applications with the latest technologies? We have good news for you: we are hosting a one-day workshop for beginners!
+    <br> <br /> We believe that the IT industry will greatly benefit from bringing more women into technology. We want to give you an opportunity to learn how to program and become a developer.
+    <br> <br /> <b>During the workshop you will build and deploy your very first Angular Web Application!</b> Angular is an open-source platform for building web application, developed by Google and the community. It provides various tools to easily create a dynamic, interactive app that can run on desktop browsers, mobile and even robots.
+    <br> <br /> <b>The workshop is free of charge.</b> <a href='https://forms.gle/ttLTBJbCFjeA4u8t7'>Just fill out the application form.</a> Don't wait too long - you can apply for a pass only until the stated deadline.
+    <br> <br /> For the workshop you'll need some basic knowledge in web development: HTML, CSS and basic JavaScript or any other programming language. If you're a total beginner, that's ok! We'll send you some resources to catch up, and give you special attention during the workshop.
+    <br> <br /> "
+    # video trailer?
+    trailer: false
+    trailer_url: ""
+    # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
+    teacher_title: "Organized by"
+    teachers:
+      teacher_1:
+        teacher_name: "ngGirls"
+        teacher_bio: "ngGirls aims to introduce women to the world of technology and increase the diversity. Angular is a great technology to start with. We believe this is a win-win situation!
+        <p><a href='https://www.ng-girls.org/event/verona-2022'>Visit the website for more info about ngGirls</a>, and <a href='https://twitter.com/AngularGirls'>follow on Twitter </a>for updates."
+        pic_filename: "nggirls-logo.png"
+        teacher_role: ""
+        teacher_org: ""
+    topics_title: ""
+    topics:
+      - ""
+    addressees_title: "Can I help?"
+    addressees_description: "Of course! There are several ways you can help:
+    <ul>
+    <li><b>Mentors</b> - you have a significant impact on the participants' experience.
+    If you can volunteer your time, knowledge, and positive encouragement during the workshop and provide some support on the days before and after, we'd love to have you!
+    You don't need to be an Angular expert - web developers are welcome. Here's the <a href='https://forms.gle/YJk8N1g23Ls7jiHH9'>Call for Mentors.</a>
+    <li><b>Sponsors</b> - with your help we can make our events truly awesome! From funding tickets to Angular conferences, through supplying lunch, to providing swag - there's lots of opportunities to help.
+    <a href='mailto:angularday@grusp.org'>Send us an email.</a>
+    <li><b>Anyone</b> - There are many other ways to help us. We'd love to hear your ideas and/or assign you some chores. Huge thanks in advance!
+    <a href='mailto:angularday@grusp.org'>Don't be shy, just contact us.</a>"
+    requirements_title: "Prerequisite"
+    requirements_description: "For the workshop you'll need some basic knowledge in web development: HTML, CSS and basic JavaScript or any other programming language. If you're a total beginner, that's ok! We'll send you some resources to catch up, and give you special attention during the workshop."
+    useful_info_title: "Useful information"
+    useful_info_description: "The workshop takes place in Verona, in the same venue as the conference. <b>It's free of charge, and coffee breaks and lunch are included.</b> To participate, you have to <a href='https://forms.gle/ttLTBJbCFjeA4u8t7'>apply here.</a>"
+    # CTA
+    cta_title: "Apply to participate"

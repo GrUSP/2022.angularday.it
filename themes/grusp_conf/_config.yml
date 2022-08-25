@@ -16,6 +16,7 @@ menu:
 # workshops submenu (comment out if only one workshop: add items for multiple workshops)
 workshop_submenu:
   workshop_RxJS: "Angular Masterclass: RxJS 7, autenticazione e sicurezza"
+  ngGirls: "ngGirls free workshop"
 
 # welcome submenu
 welcome_submenu:
