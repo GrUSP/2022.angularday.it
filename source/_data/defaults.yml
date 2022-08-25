@@ -26,7 +26,7 @@ conference:
   title_pre: "Welcome to"
   title: "angularday 2022"
   city: "Verona"
-  date: 2022-10-07T09:00+02:00
+  date: 2022-10-07T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -94,7 +94,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: The first speakers (more to be announced!)
+  speaker_count_text:
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
