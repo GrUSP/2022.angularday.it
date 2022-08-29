@@ -33,6 +33,10 @@ silver:
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
   sponsor3:
+    name: "Flowing a Claranet Italy Company"
+    logo_filename: "flowing-claranet.svg"
+    site_url: "https://www.flowing.it/"
+  sponsor4:
     name: "SparkFabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
