@@ -24,6 +24,10 @@ gold:
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
+  sponsor0:
+    name: "Angular"
+    logo_filename: "angular.svg"
+    site_url: "https://angular.io"
   sponsor1:
     name: "CentralReach"
     logo_filename: "centralreach.svg"
@@ -41,6 +45,10 @@ silver:
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
 bronze:
+  sponsor1:
+    name: "Nrwl"
+    logo_filename: "nrwl.svg"
+    site_url: "https://nx.dev"
   sponsor2:
     name: "StickerMule"
     logo_filename: "stickermule.svg"
